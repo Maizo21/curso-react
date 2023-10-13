@@ -1,0 +1,21 @@
+.main-title{
+    font-size: 35px;
+    color: darkblue;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0;
+    margin: 0
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+    padding: 20px 0;
+    background-color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}

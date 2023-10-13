@@ -1,0 +1,57 @@
+.list-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    background: #b3ebfd;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.close-btn{
+    position: absolute;
+    right: 5%;
+    cursor: pointer;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.icon-status{
+    position: absolute;
+    left: 5%;
+    cursor: pointer;
+    background: white;
+    padding: 10px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.icon-status:hover{
+    background: #b3ebfd;
+}
+
+.icon-status.pending{
+    background: #f44336;
+    color: #fff;
+}
+
+.icon-status.done{
+    background: #4CAF50;
+    color: #fff;
+}
