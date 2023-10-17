@@ -36,6 +36,7 @@ function App() {
     const toDoIndex = newTodos.findIndex(todo => todo.text === text);
     newTodos[toDoIndex].completed = true;
     setToDoValue(newTodos);
+    console.log('isCompleted');
   }
 
   const deleteToDo = (text) => {
@@ -43,6 +44,7 @@ function App() {
     const toDoIndex = newTodos.findIndex(todo => todo.text === text);
     newTodos.splice(toDoIndex,1);
     setToDoValue(newTodos);
+    console.log('deleteToDo');
   }
 
   return (
